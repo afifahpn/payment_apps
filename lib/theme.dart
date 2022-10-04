@@ -3,9 +3,13 @@ import 'package:google_fonts/google_fonts.dart';
 
 Color whiteColor = Color(0xffFFFFFF);
 Color lightblueColor = Color(0xff9ED0FF);
+Color blueColor = Color(0xff007DFF);
 
 TextStyle titleTextStyle = GoogleFonts.poppins(
     color: whiteColor, fontWeight: FontWeight.bold, fontSize: 26);
+
+TextStyle titleProTextStyle = GoogleFonts.poppins(
+    color: blueColor, fontWeight: FontWeight.bold, fontSize: 26);
 
 TextStyle subtitleTextStyle = GoogleFonts.poppins(
     color: lightblueColor, fontWeight: FontWeight.w300, fontSize: 16);
